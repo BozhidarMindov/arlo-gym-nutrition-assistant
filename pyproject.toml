@@ -1,0 +1,14 @@
+[project]
+name = "arlo-gym-nutrition-assistant"
+version = "0.1.0"
+description = "Arlo: an AI-powered gym and nutrition assistant with workout tracking and export tools."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "gradio>=6.5.1",
+    "langchain>=1.2.10",
+    "langchain-core>=1.2.11",
+    "langchain-groq>=1.1.2",
+    "markdown-pdf>=1.11",
+    "python-dotenv>=1.2.1",
+]

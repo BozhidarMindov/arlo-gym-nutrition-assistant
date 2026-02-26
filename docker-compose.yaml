@@ -1,0 +1,17 @@
+services:
+  app:
+    build: .
+    env_file:
+      - .env
+    environment:
+      FITNESS_DB_PATH: /data/fitness.db
+      GRADIO_TEMP_DIR: /tmp/gradio
+    ports:
+      - "7860:7860"
+    volumes:
+      - db_data:/data
+      - gradio_temp:/tmp/gradio
+
+volumes:
+  db_data:
+  gradio_temp:
