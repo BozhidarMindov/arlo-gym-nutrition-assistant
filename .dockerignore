@@ -91,4 +91,4 @@ pip-delete-this-directory.txt
 pip-log.txt
 
 .env
-.db
+*.db
