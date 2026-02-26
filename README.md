@@ -62,7 +62,7 @@
 #### Progress Query Example
 ![exercise_progress.png](assets/demo/images/exercise_progress.png)
 
-### Workout Plan Generation and File Saving Example
+#### Workout Plan Generation and File Saving Example
 ![workout_plan_1.png](assets/demo/images/workout_plan_1.png)
 ![workout_plan_2.png](assets/demo/images/workout_plan_2.png)
 ![workout_plan_3.png](assets/demo/images/workout_plan_3.png)
